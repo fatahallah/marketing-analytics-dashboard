@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "Total_Revenue": 1357890,
+    "Total_Purchases": 45200,
+    "Total_Conversions": 3890,
+    "Avg_Income": 68500
+  },
+  "categories": [
+    {
+      "Category": "Wines",
+      "Total_Spend": 520000
+    },
+    {
+      "Category": "Meat",
+      "Total_Spend": 380000
+    },
+    {
+      "Category": "Gold",
+      "Total_Spend": 190000
+    },
+    {
+      "Category": "Fish",
+      "Total_Spend": 140000
+    },
+    {
+      "Category": "Fruits",
+      "Total_Spend": 85000
+    },
+    {
+      "Category": "Sweets",
+      "Total_Spend": 42890
+    }
+  ],
+  "channels": [
+    {
+      "Channel": "Store Sales",
+      "Purchases": 18500
+    },
+    {
+      "Channel": "Web Sales",
+      "Purchases": 16200
+    },
+    {
+      "Channel": "Catalog Sales",
+      "Purchases": 10500
+    }
+  ]
+}
