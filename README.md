@@ -37,7 +37,7 @@ Complex multi-table SQL queries for data aggregation, customer segmentation, and
 
 ## 🌐 Live Demos & Documentation
 
-* 🚀 **Interactive Live Dashboard:** [https://marketing-analytics-dashboard.vercel.app](https://marketing-analytics-dashboard-eight.vercel.app)
+* 🚀 **Interactive Live Dashboard:** [https://marketing-analytics-dashboard-eight.vercel.app](https://marketing-analytics-dashboard-eight.vercel.app)
 * 👨‍💻 **Developer Portfolio:** [https://fathallah-portfolio.vercel.app](https://fathallah-portfolio.vercel.app)
 * 📑 **Full Executive Report (PDF):** `docs/Marketing_Analytics_Report.pdf`
 
@@ -57,7 +57,7 @@ Complex multi-table SQL queries for data aggregation, customer segmentation, and
 
 ```bash
 # Clone the repository
-git clone [https://github.com/FathallahSaied/marketing-analytics-dashboard.git](https://github.com/FathallahSaied/marketing-analytics-dashboard.git)
+git clone https://github.com/fatahallah/marketing-analytics-dashboard.git
 
 # Navigate to project directory
 cd marketing-analytics-dashboard
@@ -72,7 +72,7 @@ npm run dev
 
 ## 👤 Author
 
-* **Fathallah Saied**  
+* **Fathallah Saied**
   * 🌐 **Portfolio:** [fathallah-portfolio.vercel.app](https://fathallah-portfolio.vercel.app)
-  * 💼 **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com)
-  * 📧 **Email:** fathallah@example.com
+  * 💼 **LinkedIn:** [fathallah-saied](https://www.linkedin.com/in/fathallah-saied/)
+  * 📧 **Email:** fathallahsaed352@gmail.com
