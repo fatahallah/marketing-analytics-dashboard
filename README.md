@@ -14,6 +14,27 @@ An end-to-end interactive Web Analytics Dashboard developed using **React**, **T
 
 ---
 
+---
+
+## 📸 Project Dashboards & Analytics Showcase
+
+### 1. 🌐 Interactive Web Analytics Dashboard (Live)
+An end-to-end web dashboard built with **React**, **Tailwind CSS**, and **Recharts**.
+👉 **[Experience Live Interactive Dashboard](https://marketing-analytics-dashboard-eight.vercel.app)**
+
+---
+
+### 2. 📊 Power BI Executive Dashboard
+Detailed performance reporting & data modeling covering channel attribution, customer behavior, and sales segmentation.
+
+![Power BI Overview](04_powerbi/screenshots/dashboard_overview.png) *(مسار صوره داخل المستودع)*
+
+---
+
+### 3. 🗄️ SQL Analytics & Data Pipeline
+Complex multi-table SQL queries for data aggregation, customer segmentation, and KPI calculation.
+* View SQL scripts in: [`02_sql/`](./02_sql)
+
 ## 🌐 Live Demos & Documentation
 
 * 🚀 **Interactive Live Dashboard:** [https://marketing-analytics-dashboard.vercel.app](https://marketing-analytics-dashboard-eight.vercel.app)
