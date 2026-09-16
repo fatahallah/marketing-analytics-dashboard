@@ -1,9 +1,14 @@
-# 📊 E-Commerce Marketing Analytics - Interactive Dashboard
+# 📊 Digital Marketing & E-commerce Performance Dashboard
 
-![React](https://img.shields.io/badge/React-18.2-blue?logo=react)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-cyan?logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-5.0-purple?logo=vite)
-![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel)
+[![Live Demo](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://marketing-analytics-dashboard-eight.vercel.app)
+[![Tech Stack](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+
+> 🔗 **الرابط التفاعلي المباشر للداشبورد (Live Dashboard):**  
+> 👉 [https://marketing-analytics-dashboard-eight.vercel.app](https://marketing-analytics-dashboard-eight.vercel.app)
+
+---
+
 
 An end-to-end interactive Web Analytics Dashboard developed using **React**, **Tailwind CSS**, and **Recharts**. This project visualizes campaign performance, spend distribution, customer income correlation, and campaign response heatmaps with full client-side reporting functionality.
 
