@@ -16,7 +16,7 @@ An end-to-end interactive Web Analytics Dashboard developed using **React**, **T
 
 ## 🌐 Live Demos & Documentation
 
-* 🚀 **Interactive Live Dashboard:** [https://marketing-analytics-dashboard.vercel.app](https://marketing-analytics-dashboard.vercel.app)
+* 🚀 **Interactive Live Dashboard:** [https://marketing-analytics-dashboard.vercel.app](https://marketing-analytics-dashboard-eight.vercel.app)
 * 👨‍💻 **Developer Portfolio:** [https://fathallah-portfolio.vercel.app](https://fathallah-portfolio.vercel.app)
 * 📑 **Full Executive Report (PDF):** `docs/Marketing_Analytics_Report.pdf`
 
