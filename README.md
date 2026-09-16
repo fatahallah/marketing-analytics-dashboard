@@ -27,7 +27,7 @@ An end-to-end web dashboard built with **React**, **Tailwind CSS**, and **Rechar
 ### 2. 📊 Power BI Executive Dashboard
 Detailed performance reporting & data modeling covering channel attribution, customer behavior, and sales segmentation.
 
-![Power BI Overview](04_powerbi/screenshots/dashboard_overview.png) *(مسار صوره داخل المستودع)*
+![Power BI Overview](04_powerbi/screenshots/dashboard_preview.png) 
 
 ---
 
