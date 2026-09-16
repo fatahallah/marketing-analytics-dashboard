@@ -67,3 +67,12 @@ npm install
 
 # Run Vite dev server
 npm run dev
+
+---
+
+## 👤 Author
+
+* **Fathallah Saied**  
+  * 🌐 **Portfolio:** [fathallah-portfolio.vercel.app](https://fathallah-portfolio.vercel.app)
+  * 💼 **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com)
+  * 📧 **Email:** fathallah@example.com
