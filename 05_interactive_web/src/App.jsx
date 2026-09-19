@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
   PieChart, Pie, Legend
 } from 'recharts';
-import { DollarSign, ShoppingCart, Users, Target, Filter, Download, Flame } from 'lucide-react';
+import { DollarSign, ShoppingCart, Users, Target, Filter, Download, Flame, Mail } from 'lucide-react';
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -53,6 +53,32 @@ export default function App() {
       { Channel: 'Web Sales', Purchases: 800 },
       { Channel: 'Catalog Sales', Purchases: 300 }
     ]
+  };
+
+  const handleSendEmailReport = async () => {
+    try {
+      const response = await fetch('/api/send-alert', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          metrics: {
+            revenue: '$1.36M',
+            purchases: '45.20K',
+            conversions: '3,890',
+          },
+          recipientEmail: 'tito8102000@gmail.com',
+        }),
+      });
+
+      if (response.ok) {
+        alert('✅ تم إرسال تقرير الأداء بنجاح إلى البريد الإلكتروني!');
+      } else {
+        alert('⚠️ حدث خطأ أثناء إرسال التقرير.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('⚠️ تعذر الاتصال بالسيرفر.');
+    }
   };
 
   // Campaign Response Heatmap Matrix Data
@@ -137,6 +163,15 @@ export default function App() {
           >
             <Download className="w-4 h-4" />
             <span>Export CSV</span>
+          </button>
+
+          {/* ⚡ زر إرسال التقرير البريدي ⚡ */}
+          <button 
+            onClick={handleSendEmailReport}
+            className="flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2.5 rounded-xl border border-indigo-500 transition-all shadow-lg cursor-pointer"
+          >
+            <Mail className="w-4 h-4" />
+            <span>Send Email Report</span>
           </button>
         </div>
       </header>
